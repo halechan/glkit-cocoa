@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A76D3B11901C0B60027E2A0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A76D3B01901C0B60027E2A0 /* Cocoa.framework */; };
+		2A1D4AC21907411700851246 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1D4AC11907411700851246 /* OpenGL.framework */; };
+		2A1D4AC419143DDF00851246 /* thread.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D4AC319143DDF00851246 /* thread.m */; };
+		2A1D4AC71914566B00851246 /* GLKApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D4AC61914566B00851246 /* GLKApplication.m */; };
+		2A1D4ACA1914592600851246 /* GLKApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D4AC91914592600851246 /* GLKApplicationDelegate.m */; };
+		2A1D4ACD19145BF600851246 /* GLKWindowDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D4ACC19145BF600851246 /* GLKWindowDelegate.m */; };
+		2A1D4AD319145F9000851246 /* GLKCocoaWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D4AD219145F9000851246 /* GLKCocoaWindow.m */; };
 		2A76D3BB1901C0B60027E2A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A76D3B91901C0B60027E2A0 /* InfoPlist.strings */; };
 		2A76D3BD1901C0B60027E2A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76D3BC1901C0B60027E2A0 /* main.m */; };
 		2A76D3C11901C0B60027E2A0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A76D3BF1901C0B60027E2A0 /* Credits.rtf */; };
@@ -17,6 +22,10 @@
 		2A76D3D91901C0B60027E2A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A76D3D71901C0B60027E2A0 /* InfoPlist.strings */; };
 		2A76D3E61901C1200027E2A0 /* GLKMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76D3E51901C1200027E2A0 /* GLKMenu.m */; };
 		2A76D3E91901C72C0027E2A0 /* glkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76D3E81901C72C0027E2A0 /* glkit.m */; };
+		2A76D3EF1906F4C30027E2A0 /* GLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76D3EE1906F4C30027E2A0 /* GLKView.m */; };
+		2A76D3F1190735700027E2A0 /* timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76D3F0190735700027E2A0 /* timer.m */; };
+		2A76D3F419073C320027E2A0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A76D3B01901C0B60027E2A0 /* Cocoa.framework */; };
+		2A76D3F519073C390027E2A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A76D3B51901C0B60027E2A0 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A1D4AC11907411700851246 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		2A1D4AC319143DDF00851246 /* thread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thread.m; sourceTree = "<group>"; };
+		2A1D4AC51914566B00851246 /* GLKApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKApplication.h; sourceTree = "<group>"; };
+		2A1D4AC61914566B00851246 /* GLKApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKApplication.m; sourceTree = "<group>"; };
+		2A1D4AC81914592600851246 /* GLKApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKApplicationDelegate.h; sourceTree = "<group>"; };
+		2A1D4AC91914592600851246 /* GLKApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKApplicationDelegate.m; sourceTree = "<group>"; };
+		2A1D4ACB19145BF600851246 /* GLKWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKWindowDelegate.h; sourceTree = "<group>"; };
+		2A1D4ACC19145BF600851246 /* GLKWindowDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKWindowDelegate.m; sourceTree = "<group>"; };
+		2A1D4AD119145F9000851246 /* GLKCocoaWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKCocoaWindow.h; sourceTree = "<group>"; };
+		2A1D4AD219145F9000851246 /* GLKCocoaWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKCocoaWindow.m; sourceTree = "<group>"; };
 		2A76D3AD1901C0B60027E2A0 /* glkit-cocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "glkit-cocoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A76D3B01901C0B60027E2A0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2A76D3B31901C0B60027E2A0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -49,6 +68,9 @@
 		2A76D3E51901C1200027E2A0 /* GLKMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKMenu.m; sourceTree = "<group>"; };
 		2A76D3E71901C1380027E2A0 /* glkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glkit.h; sourceTree = "<group>"; };
 		2A76D3E81901C72C0027E2A0 /* glkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = glkit.m; sourceTree = "<group>"; };
+		2A76D3ED1906F4C30027E2A0 /* GLKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKView.h; sourceTree = "<group>"; };
+		2A76D3EE1906F4C30027E2A0 /* GLKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKView.m; sourceTree = "<group>"; };
+		2A76D3F0190735700027E2A0 /* timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A76D3B11901C0B60027E2A0 /* Cocoa.framework in Frameworks */,
+				2A1D4AC21907411700851246 /* OpenGL.framework in Frameworks */,
+				2A76D3F519073C390027E2A0 /* Foundation.framework in Frameworks */,
+				2A76D3F419073C320027E2A0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +99,18 @@
 		2A76D3A41901C0B60027E2A0 = {
 			isa = PBXGroup;
 			children = (
+				2A1D4AD119145F9000851246 /* GLKCocoaWindow.h */,
+				2A1D4AD219145F9000851246 /* GLKCocoaWindow.m */,
+				2A1D4ACB19145BF600851246 /* GLKWindowDelegate.h */,
+				2A1D4ACC19145BF600851246 /* GLKWindowDelegate.m */,
+				2A1D4AC81914592600851246 /* GLKApplicationDelegate.h */,
+				2A1D4AC91914592600851246 /* GLKApplicationDelegate.m */,
+				2A1D4AC51914566B00851246 /* GLKApplication.h */,
+				2A1D4AC61914566B00851246 /* GLKApplication.m */,
+				2A1D4AC319143DDF00851246 /* thread.m */,
+				2A76D3F0190735700027E2A0 /* timer.m */,
+				2A76D3ED1906F4C30027E2A0 /* GLKView.h */,
+				2A76D3EE1906F4C30027E2A0 /* GLKView.m */,
 				2A76D3E81901C72C0027E2A0 /* glkit.m */,
 				2A76D3E71901C1380027E2A0 /* glkit.h */,
 				2A76D3E41901C1200027E2A0 /* GLKMenu.h */,
@@ -98,6 +134,7 @@
 		2A76D3AF1901C0B60027E2A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A1D4AC11907411700851246 /* OpenGL.framework */,
 				2A76D3B01901C0B60027E2A0 /* Cocoa.framework */,
 				2A76D3CF1901C0B60027E2A0 /* XCTest.framework */,
 				2A76D3B21901C0B60027E2A0 /* Other Frameworks */,
@@ -251,7 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1D4ACA1914592600851246 /* GLKApplicationDelegate.m in Sources */,
+				2A1D4ACD19145BF600851246 /* GLKWindowDelegate.m in Sources */,
 				2A76D3E91901C72C0027E2A0 /* glkit.m in Sources */,
+				2A1D4AC419143DDF00851246 /* thread.m in Sources */,
+				2A1D4AD319145F9000851246 /* GLKCocoaWindow.m in Sources */,
+				2A1D4AC71914566B00851246 /* GLKApplication.m in Sources */,
+				2A76D3EF1906F4C30027E2A0 /* GLKView.m in Sources */,
+				2A76D3F1190735700027E2A0 /* timer.m in Sources */,
 				2A76D3BD1901C0B60027E2A0 /* main.m in Sources */,
 				2A76D3E61901C1200027E2A0 /* GLKMenu.m in Sources */,
 			);
@@ -368,6 +412,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -376,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "glkit-cocoa/glkit-cocoa-Prefix.pch";
@@ -389,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "glkit-cocoa/glkit-cocoa-Prefix.pch";
@@ -457,6 +504,7 @@
 				2A76D3E01901C0B60027E2A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A76D3E11901C0B60027E2A0 /* Build configuration list for PBXNativeTarget "glkit-cocoaTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +513,7 @@
 				2A76D3E31901C0B60027E2A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
