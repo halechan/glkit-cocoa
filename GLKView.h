@@ -9,8 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "glkit.h"
 
-@interface GLKView : NSView
-{
+@interface GLKView : NSView {
     GLKWindow* window;
     NSTrackingArea* trackingArea;
 }

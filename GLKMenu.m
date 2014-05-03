@@ -8,8 +8,7 @@
 @implementation GLKMenu
 @synthesize menu;
 
-- (id)init
-{
+- (id)init {
     self = [super init];
     if (self) {
         // Initialization code here.
@@ -18,20 +17,17 @@
     return self;
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
     [super dealloc];
 }
 
-- (void)setAppName:(NSString*)name
-{
+- (void)setAppName:(NSString*)name {
     NSString* oldTitle = @"Quit go";
     NSString* newTitle = [NSString stringWithFormat:@"Quit %@", name];
     [[[[menu itemAtIndex:0] submenu] itemWithTitle:oldTitle] setTitle:newTitle];
 }
 
-- (void)load
-{
+- (void)load {
     if (NSApp == NULL) {
         NSLog(@"NSApp is null");
     }

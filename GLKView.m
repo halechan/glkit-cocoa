@@ -9,10 +9,8 @@
 
 @implementation GLKView
 
-+ (void)initialize
-{
-    if (self == [GLKView class])
-    {
++ (void)initialize {
+    if (self == [GLKView class]) {
         //if (_glfw.ns.cursor == nil)
         //{
         //    NSImage* data = [[NSImage alloc] initWithSize:NSMakeSize(16, 16)];
@@ -23,11 +21,9 @@
     }
 }
 
-- (id)initWithGLKWindow:(GLKWindow*)initWindow
-{
+- (id)initWithGLKWindow:(GLKWindow*)initWindow {
     self = [super init];
-    if (self != nil)
-    {
+    if (self != nil) {
         window = initWindow;
         trackingArea = nil;
         
@@ -39,24 +35,20 @@
     return self;
 }
 
--(void)dealloc
-{
+-(void)dealloc {
     [trackingArea release];
     [super dealloc];
 }
 
-- (BOOL)isOpaque
-{
+- (BOOL)isOpaque {
     return YES;
 }
 
-- (BOOL)canBecomeKeyView
-{
+- (BOOL)canBecomeKeyView {
     return YES;
 }
 
-- (BOOL)acceptsFirstResponder
-{
+- (BOOL)acceptsFirstResponder {
     return YES;
 }
 
