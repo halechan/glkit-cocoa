@@ -4,7 +4,6 @@
 #import "GLKCocoaWindow.h"
 #import "GLKWindowDelegate.h"
 #import "GLKApplicationDelegate.h"
-#import "GLKMenu.h"
 #import "GLKView.h"
 #import "glkit.h"
 

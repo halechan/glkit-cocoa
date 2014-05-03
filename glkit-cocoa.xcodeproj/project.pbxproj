@@ -20,7 +20,6 @@
 		2A76D3D01901C0B60027E2A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A76D3CF1901C0B60027E2A0 /* XCTest.framework */; };
 		2A76D3D11901C0B60027E2A0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A76D3B01901C0B60027E2A0 /* Cocoa.framework */; };
 		2A76D3D91901C0B60027E2A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A76D3D71901C0B60027E2A0 /* InfoPlist.strings */; };
-		2A76D3E61901C1200027E2A0 /* GLKMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76D3E51901C1200027E2A0 /* GLKMenu.m */; };
 		2A76D3E91901C72C0027E2A0 /* glkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76D3E81901C72C0027E2A0 /* glkit.m */; };
 		2A76D3EF1906F4C30027E2A0 /* GLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76D3EE1906F4C30027E2A0 /* GLKView.m */; };
 		2A76D3F1190735700027E2A0 /* timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A76D3F0190735700027E2A0 /* timer.m */; };
@@ -64,8 +63,6 @@
 		2A76D3CF1901C0B60027E2A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2A76D3D61901C0B60027E2A0 /* glkit-cocoaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glkit-cocoaTests-Info.plist"; sourceTree = "<group>"; };
 		2A76D3D81901C0B60027E2A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2A76D3E41901C1200027E2A0 /* GLKMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKMenu.h; sourceTree = "<group>"; };
-		2A76D3E51901C1200027E2A0 /* GLKMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKMenu.m; sourceTree = "<group>"; };
 		2A76D3E71901C1380027E2A0 /* glkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glkit.h; sourceTree = "<group>"; };
 		2A76D3E81901C72C0027E2A0 /* glkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = glkit.m; sourceTree = "<group>"; };
 		2A76D3ED1906F4C30027E2A0 /* GLKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKView.h; sourceTree = "<group>"; };
@@ -113,8 +110,6 @@
 				2A76D3EE1906F4C30027E2A0 /* GLKView.m */,
 				2A76D3E81901C72C0027E2A0 /* glkit.m */,
 				2A76D3E71901C1380027E2A0 /* glkit.h */,
-				2A76D3E41901C1200027E2A0 /* GLKMenu.h */,
-				2A76D3E51901C1200027E2A0 /* GLKMenu.m */,
 				2A76D3B61901C0B60027E2A0 /* glkit-cocoa */,
 				2A76D3D41901C0B60027E2A0 /* glkit-cocoaTests */,
 				2A76D3AF1901C0B60027E2A0 /* Frameworks */,
@@ -297,7 +292,6 @@
 				2A76D3EF1906F4C30027E2A0 /* GLKView.m in Sources */,
 				2A76D3F1190735700027E2A0 /* timer.m in Sources */,
 				2A76D3BD1901C0B60027E2A0 /* main.m in Sources */,
-				2A76D3E61901C1200027E2A0 /* GLKMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
